@@ -12,6 +12,6 @@ public class Controller {
 	@GetMapping("/")
 	public List<String> showData() {
 
-		return Arrays.asList("AA", "BB", "demo testing 011");
+		return Arrays.asList("AA", "BB", "Test App for Demo");
 	}
 }
